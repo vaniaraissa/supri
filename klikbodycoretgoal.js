@@ -1,4 +1,4 @@
-var sites=[
+var sites = [
 
 
 "https://coretgoals.blogspot.com/2018/09/100-berhasil-cara-menghilangkan-iklan.html",
@@ -1161,7 +1161,8 @@ var sites=[
 
 "https://coretgoals.blogspot.com/2019/08/pt-kaisar-motorindo-launching-ruby-wolf.html",
 
-];function randomSite(){
+];
+function randomSite(){
 var i=parseInt(Math.random()*sites.length);
 location.href=sites[i];
 }
